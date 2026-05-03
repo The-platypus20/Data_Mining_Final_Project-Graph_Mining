@@ -1,0 +1,98 @@
+{
+  "config": {
+    "early_window_minutes": 30,
+    "event_date": "2024-07-01",
+    "model": "RandomForestClassifier",
+    "leakage_policy": "label-only/full-lifecycle columns dropped before modeling"
+  },
+  "validation_2024": {
+    "split": "validate_2024",
+    "rows": 53957,
+    "rug_rows": 1053,
+    "positive_rate": 0.01951554015234353,
+    "roc_auc": 0.5899276210531819,
+    "pr_auc": 0.02362156006138785,
+    "precision": 0.02316076294277929,
+    "recall": 0.3067426400759734,
+    "f1": 0.04306953796919795,
+    "threshold": 0.02
+  },
+  "forward_2025": null,
+  "notes": [
+    "2025 predictions saved, but true forward evaluation is unavailable because 2025 files do not contain complete label-only fields."
+  ],
+  "validation_threshold_sweep": [
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.5899275851516388,
+      "pr_auc": 0.02362155864673999,
+      "precision": 0.023983315954118872,
+      "recall": 0.6771130104463438,
+      "f1": 0.046325774803456565,
+      "threshold": 0.005
+    },
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.5899276210531817,
+      "pr_auc": 0.02362156006138785,
+      "precision": 0.02344124439022265,
+      "recall": 0.5109211775878443,
+      "f1": 0.044825862356273956,
+      "threshold": 0.01
+    },
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.5899276031024103,
+      "pr_auc": 0.02362155864673999,
+      "precision": 0.02316076294277929,
+      "recall": 0.3067426400759734,
+      "f1": 0.04306953796919795,
+      "threshold": 0.02
+    },
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.5899276031024103,
+      "pr_auc": 0.02362155864673999,
+      "precision": 0.024407753050969132,
+      "recall": 0.09686609686609686,
+      "f1": 0.0389908256880734,
+      "threshold": 0.05
+    },
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.5899276210531819,
+      "pr_auc": 0.02362156006138785,
+      "precision": 0.023397761953204477,
+      "recall": 0.02184235517568851,
+      "f1": 0.022593320235756387,
+      "threshold": 0.1
+    },
+    {
+      "split": "validate_2024",
+      "rows": 53957,
+      "rug_rows": 1053,
+      "positive_rate": 0.01951554015234353,
+      "roc_auc": 0.589927612077796,
+      "pr_auc": 0.02362155864673999,
+      "precision": 0.007407407407407408,
+      "recall": 0.000949667616334283,
+      "f1": 0.0016835016835016834,
+      "threshold": 0.2
+    }
+  ]
+}

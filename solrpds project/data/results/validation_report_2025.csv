@@ -1,0 +1,10 @@
+check,value,status
+trade_rows,80000.0,info
+event_rows,160000.0,info
+missing_values_events,15.0,warn
+duplicate_tx_id_mint_side,0.0,pass
+buy_events,80000.0,info
+sell_events,80000.0,info
+trade_volume_usd,32246667.46757555,info
+event_volume_usd,64493334.9351511,info
+volume_consistency_event_minus_2x_trade,0.0,pass

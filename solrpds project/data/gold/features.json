@@ -1,0 +1,112 @@
+{
+  "pre_pumpfun": {
+    "f1_creator_multiplicity": {
+      "id_col": "pool",
+      "top_12pct_n": 45,
+      "rug_share_pct": 12.13,
+      "max_mints_1_id": 1,
+      "ids_multi_mint": 0
+    },
+    "f2_cluster_size": {
+      "largest": 7,
+      "n_clusters": 282,
+      "mean": 1.32,
+      "top10": [
+        7,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "f3_temporal_edge_strength": {
+      "mean": 2.267185,
+      "max": 64.285714,
+      "n_pairs": 113
+    },
+    "f4_bridge_score": {
+      "pct": 5.95,
+      "n_analyzed": 18
+    },
+    "f5_clustering_coeff": 0.062391,
+    "f6_burst_coordination": {
+      "burst_windows": 0,
+      "pools_in_burst": 0,
+      "burst_pool_pct": 0.0,
+      "max_per_window": 4,
+      "mean_burst_size": 0
+    },
+    "f7_lifespan_velocity": {
+      "median_lifespan_min": 43.17,
+      "mean_velocity": 3.2268,
+      "fast_rug_pct": 49.87,
+      "p90_lifespan_min": 224.95
+    },
+    "f8_window_coordination": {
+      "mean_wcs": 0.029614,
+      "max_wcs": 0.597015,
+      "time_coord_ratio": 0.8496,
+      "time_only_edges": 96
+    }
+  },
+  "post_pumpfun": {
+    "f1_creator_multiplicity": {
+      "id_col": "pool",
+      "top_12pct_n": 118,
+      "rug_share_pct": 12.17,
+      "max_mints_1_id": 2,
+      "ids_multi_mint": 1
+    },
+    "f2_cluster_size": {
+      "largest": 51,
+      "n_clusters": 207,
+      "mean": 4.72,
+      "top10": [
+        51,
+        28,
+        25,
+        23,
+        22,
+        21,
+        20,
+        20,
+        19,
+        18
+      ]
+    },
+    "f3_temporal_edge_strength": {
+      "mean": 2.352323,
+      "max": 100.0,
+      "n_pairs": 5225
+    },
+    "f4_bridge_score": {
+      "pct": 1.77,
+      "n_analyzed": 80
+    },
+    "f5_clustering_coeff": 0.420982,
+    "f6_burst_coordination": {
+      "burst_windows": 35,
+      "pools_in_burst": 556,
+      "burst_pool_pct": 56.85,
+      "max_per_window": 28,
+      "mean_burst_size": 15.9
+    },
+    "f7_lifespan_velocity": {
+      "median_lifespan_min": 10.93,
+      "mean_velocity": 2.0631,
+      "fast_rug_pct": 50.0,
+      "p90_lifespan_min": 67.36
+    },
+    "f8_window_coordination": {
+      "mean_wcs": 0.125091,
+      "max_wcs": 1.73913,
+      "time_coord_ratio": 0.9956,
+      "time_only_edges": 5202
+    }
+  }
+}

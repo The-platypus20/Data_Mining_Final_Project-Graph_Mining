@@ -1,0 +1,9 @@
+{
+  "input_files": 4,
+  "trade_rows": 80000,
+  "event_rows": 160000,
+  "token_count": 37017,
+  "rug_flag_count": 903,
+  "visualization_count": 11,
+  "output_dir": "C:\\Users\\Thao Vy\\OneDrive\\M\u00e1y t\u00ednh\\Studying\\Data Mining\\Project\\solrpds project\\data\\results"
+}

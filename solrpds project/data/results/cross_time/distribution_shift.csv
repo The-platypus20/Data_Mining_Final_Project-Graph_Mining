@@ -1,0 +1,8 @@
+feature,historical_mean,recent_2025_mean,historical_median,recent_2025_median,standardized_mean_difference,ks_statistic,historical_missing_rate,recent_2025_missing_rate,drift_severity,drift_interpretation
+total_volume,637036370495442.5,661.0359862871958,49071049.4425,81.40426405247,-0.019916590865735523,0.9547012903311672,0.0,0.0,high,Feature shows severe distribution shift and may hurt transfer.
+imbalance_ratio,1664980380536.2578,0.569516409009964,1.2943981570549905,0.0,-0.00795866001045003,0.8428204781845198,0.0,0.0,high,Feature shows severe distribution shift and may hurt transfer.
+activity_count,2425.7887882219707,2.0455491017155207,8.0,1.0,-0.06476222285329973,0.8426862927382902,0.0,0.0,high,Feature shows severe distribution shift and may hurt transfer.
+lifespan_hours,387.1457004923241,46.66884953547361,23.357916666666668,0.0,-0.32314986558153325,0.7454904610768889,0.0,0.0,high,Feature shows severe distribution shift and may hurt transfer.
+entity_concentration_ratio,0.9390221048717682,0.904238835470976,1.0,1.0,-0.20227522612128596,0.07404462379351276,0.0,0.0,low,Feature distribution is relatively stable.
+graph_degree,2.132559456398641,1.8695123598541132,1.0,1.0,-0.030030446284822408,0.03542949362911707,0.0,0.0,low,Feature distribution is relatively stable.
+connected_entities,2.132559456398641,1.8695123598541132,1.0,1.0,-0.030030446284822408,0.03542949362911707,0.0,0.0,low,Feature distribution is relatively stable.

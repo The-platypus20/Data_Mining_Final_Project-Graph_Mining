@@ -1,0 +1,106 @@
+{
+  "post_pumpfun": [
+    {
+      "pool": "GyDUDZCN1b9ss7PfMmGkVWeiN8o7hkX6R2ZDketFsnqD",
+      "anomaly_score": 0.49113115668296814,
+      "gnn_community": 16
+    },
+    {
+      "pool": "9Y8hsE6X54Q7rNNWKHD62iRo619sB1sHCfhQzowimd4h",
+      "anomaly_score": 0.4895225763320923,
+      "gnn_community": 16
+    },
+    {
+      "pool": "7pUBeosaWtLxZA26bg4TP9PzFzmMwjy7jMHUfeSxysns",
+      "anomaly_score": 0.48627111315727234,
+      "gnn_community": 16
+    },
+    {
+      "pool": "4jHmQzohhLri7tKr7J4Phep2BnYiman3ZdNk75V5kR4P",
+      "anomaly_score": 0.484734445810318,
+      "gnn_community": 8
+    },
+    {
+      "pool": "B6VLcVYWGqJVR4xgUsTkeLgS2QrzoZcGbbkHA155xg7J",
+      "anomaly_score": 0.47747448086738586,
+      "gnn_community": 5
+    },
+    {
+      "pool": "3ckoRPj2N1NC7zzFVfqhA6BRRBA1GH82VbsV9dut8ung",
+      "anomaly_score": 0.47707951068878174,
+      "gnn_community": 5
+    },
+    {
+      "pool": "HHBqbTwg2CyY2jY5eGSwYUYrCL6iG1NVoWxs2NxVDdgZ",
+      "anomaly_score": 0.4763299524784088,
+      "gnn_community": 5
+    },
+    {
+      "pool": "2UBz6Spom8TBBDzZovX562Y1XgTURW3nXnTMsozx6jqQ",
+      "anomaly_score": 0.4747583866119385,
+      "gnn_community": 5
+    },
+    {
+      "pool": "ACLXcFAMczxJ3vZZD6eXmc34afwc5yTQvY2eMHZXkUXX",
+      "anomaly_score": 0.4703351557254791,
+      "gnn_community": 16
+    },
+    {
+      "pool": "82stzpWCZef9oDjeANze2LDbjbF7BwjWm4XSW2CErCbT",
+      "anomaly_score": 0.4701579809188843,
+      "gnn_community": 16
+    }
+  ],
+  "pre_pumpfun": [
+    {
+      "pool": "6EnHVzMyRTay2dpsWGSt4MjHPtkdfy9ouovjRPEs7PD6",
+      "anomaly_score": 0.15880192816257477,
+      "gnn_community": 9
+    },
+    {
+      "pool": "C8r3EJfVPSxsrfMYWzEiCmqF4GUEtqhm9ECgaBqvMg2",
+      "anomaly_score": 0.15880192816257477,
+      "gnn_community": 9
+    },
+    {
+      "pool": "Eg9eqJQX5JgFpwHbosPeQPx1AmYFQxXcBF9g1CMq3LMg",
+      "anomaly_score": 0.1557651311159134,
+      "gnn_community": 9
+    },
+    {
+      "pool": "Em5u3mp4wxjhPSStjXYJ7ifLVJqM4Duf7AhB6gBXo8j2",
+      "anomaly_score": 0.1557651311159134,
+      "gnn_community": 9
+    },
+    {
+      "pool": "EuiLB692BFMxrzN8tEnptr2jb9rGV2M13UgsqQt32k7u",
+      "anomaly_score": 0.15439213812351227,
+      "gnn_community": 9
+    },
+    {
+      "pool": "67YmY9XFZxP8AWu9NFseUHCN5B6EPYoMXD6tK2yMNW4i",
+      "anomaly_score": 0.15439213812351227,
+      "gnn_community": 9
+    },
+    {
+      "pool": "9bN1TppF34mbHMUPY578ERggD9P6DYA8mf4gMSRPLJWG",
+      "anomaly_score": 0.15092073380947113,
+      "gnn_community": 5
+    },
+    {
+      "pool": "F7vzEdbDW8NgfJ7gmeSrE58YRqJUokoeJ7jRssFWQnEa",
+      "anomaly_score": 0.15092073380947113,
+      "gnn_community": 5
+    },
+    {
+      "pool": "4ZU5mDh2RTfS76AdK5kcmfNuJq6RTEDTVL7gtVeGbBUQ",
+      "anomaly_score": 0.1494673639535904,
+      "gnn_community": 7
+    },
+    {
+      "pool": "J1B86e8U9jb4PG9d18hS3GVi1zmZsMo9mef4qKhMc5oZ",
+      "anomaly_score": 0.1494673639535904,
+      "gnn_community": 5
+    }
+  ]
+}

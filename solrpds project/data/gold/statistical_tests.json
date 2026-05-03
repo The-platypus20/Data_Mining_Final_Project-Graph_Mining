@@ -1,0 +1,13 @@
+{
+  "break_date": "2024-07-01",
+  "cc_pre_mean": 0.139225,
+  "cc_post_mean": 0.505015,
+  "cc_shift_absolute": 0.36579,
+  "cc_shift_relative": 3.6273,
+  "mann_whitney_p": 0.003529227887855701,
+  "permutation_p": 0.0008,
+  "n_weeks_pre": 23,
+  "n_weeks_post": 12,
+  "chow_f": 1.4224,
+  "chow_p": 0.25277542061469815
+}

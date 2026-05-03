@@ -1,0 +1,15 @@
+{
+  "total_pools": 109668,
+  "rug_pools": 1351,
+  "non_rug_pools": 108317,
+  "rug_rate_pct": 1.2319,
+  "unique_mints": 33358,
+  "date_start": "2021-02-14",
+  "date_end": "2024-10-31",
+  "total_days": 1355,
+  "bronze_rows": 109669,
+  "dedup_removed": 1,
+  "median_rug_lifespan_min": 15.77,
+  "median_drain_ratio": 2.9421,
+  "class_imbalance_ratio": 80.18
+}

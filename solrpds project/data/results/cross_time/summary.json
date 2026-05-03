@@ -1,0 +1,389 @@
+{
+  "common_features": [
+    "lifespan_hours",
+    "activity_count",
+    "total_volume",
+    "imbalance_ratio",
+    "entity_concentration_ratio",
+    "graph_degree",
+    "connected_entities"
+  ],
+  "training_years": [
+    2021,
+    2022,
+    2023
+  ],
+  "validation_year": 2024,
+  "prediction_year": 2025,
+  "historical_rows": 35320,
+  "recent_2025_rows": 37015,
+  "best_model_by_validation_f1": {
+    "model": "logistic_regression",
+    "threshold": 0.45184040746614307,
+    "validation_accuracy": 0.7176216216216216,
+    "validation_precision": 0.6962557846024401,
+    "validation_f1": 0.7917397544251316,
+    "validation_best_f1": 0.7917397544251316,
+    "validation_recall": 0.917575309554611,
+    "validation_pr_auc": 0.6894204971870632,
+    "validation_roc_auc": 0.6951398787971217,
+    "tn": 5019,
+    "fp": 6498,
+    "fn": 1338,
+    "tp": 14895,
+    "train_rows": 7570,
+    "validation_rows": 27750,
+    "recent_2025_rows": 37015,
+    "recent_2025_predicted_risk_rate": 0.7461029312440902,
+    "recent_2025_heuristic_risk_rate": 0.024395515331622316,
+    "recent_2025_agreement_with_heuristic": 0.2297717141699311,
+    "recent_2025_f1_vs_heuristic": 0.0003506311360448808,
+    "recent_2025_recall_vs_heuristic": 0.005537098560354375
+  },
+  "label_distribution": [
+    {
+      "dataset": "train_2021_2023",
+      "total_tokens": 7570,
+      "rug_flag_1": 3231,
+      "rug_flag_0": 4339,
+      "rug_flag_1_rate": 0.42681638044914133
+    },
+    {
+      "dataset": "validation_2024",
+      "total_tokens": 27750,
+      "rug_flag_1": 16233,
+      "rug_flag_0": 11517,
+      "rug_flag_1_rate": 0.584972972972973
+    },
+    {
+      "dataset": "historical_2021_2024",
+      "total_tokens": 35320,
+      "rug_flag_1": 19464,
+      "rug_flag_0": 15856,
+      "rug_flag_1_rate": 0.5510758776896942
+    },
+    {
+      "dataset": "heuristic_2025",
+      "total_tokens": 37015,
+      "rug_flag_1": 903,
+      "rug_flag_0": 36112,
+      "rug_flag_1_rate": 0.024395515331622316
+    }
+  ],
+  "prediction_behavior_2025": [
+    {
+      "model": "logistic_regression",
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 27617,
+      "predicted_rug_rate": 0.7461029312440902
+    },
+    {
+      "model": "random_forest",
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 36988,
+      "predicted_rug_rate": 0.9992705659867621
+    },
+    {
+      "model": "xgboost",
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 36978,
+      "predicted_rug_rate": 0.9990004052411184
+    }
+  ],
+  "top_5_feature_importance": [
+    {
+      "model": "logistic_regression",
+      "feature": "activity_count",
+      "importance": 4.575384251343635
+    },
+    {
+      "model": "logistic_regression",
+      "feature": "graph_degree",
+      "importance": 1.0129546791203037
+    },
+    {
+      "model": "logistic_regression",
+      "feature": "connected_entities",
+      "importance": 1.0129546791203037
+    },
+    {
+      "model": "logistic_regression",
+      "feature": "imbalance_ratio",
+      "importance": 0.7014625211489502
+    },
+    {
+      "model": "logistic_regression",
+      "feature": "lifespan_hours",
+      "importance": 0.16927502566765704
+    },
+    {
+      "model": "random_forest",
+      "feature": "imbalance_ratio",
+      "importance": 0.30505954542127967
+    },
+    {
+      "model": "random_forest",
+      "feature": "total_volume",
+      "importance": 0.24922964888198776
+    },
+    {
+      "model": "random_forest",
+      "feature": "lifespan_hours",
+      "importance": 0.21511380275152053
+    },
+    {
+      "model": "random_forest",
+      "feature": "activity_count",
+      "importance": 0.1657822088865906
+    },
+    {
+      "model": "random_forest",
+      "feature": "entity_concentration_ratio",
+      "importance": 0.032277021521326804
+    },
+    {
+      "model": "xgboost",
+      "feature": "imbalance_ratio",
+      "importance": 0.2951520085334778
+    },
+    {
+      "model": "xgboost",
+      "feature": "activity_count",
+      "importance": 0.1956004649400711
+    },
+    {
+      "model": "xgboost",
+      "feature": "total_volume",
+      "importance": 0.11562727391719818
+    },
+    {
+      "model": "xgboost",
+      "feature": "connected_entities",
+      "importance": 0.11070999503135681
+    },
+    {
+      "model": "xgboost",
+      "feature": "graph_degree",
+      "importance": 0.11046697199344635
+    }
+  ],
+  "threshold_sensitivity_summary": [
+    {
+      "model": "logistic_regression",
+      "strategy": "default_0.5",
+      "threshold_value": 0.5,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 27611,
+      "predicted_rug_rate": 0.745940834796704,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.22982574631905983,
+      "f1_vs_heuristic": 0.00021042295012976082,
+      "recall_vs_heuristic": 0.0033222591362126247,
+      "precision_vs_heuristic": 0.00010865234870160443
+    },
+    {
+      "model": "logistic_regression",
+      "strategy": "best_f1_threshold_2024",
+      "threshold_value": 0.45184040746614307,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 27617,
+      "predicted_rug_rate": 0.7461029312440902,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.2297717141699311,
+      "f1_vs_heuristic": 0.0003506311360448808,
+      "recall_vs_heuristic": 0.005537098560354375,
+      "precision_vs_heuristic": 0.00018104790527573596
+    },
+    {
+      "model": "logistic_regression",
+      "strategy": "top_1pct_highest_risk",
+      "threshold_value": 0.5650551401626722,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 371,
+      "predicted_rug_rate": 0.010022963663379712,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.965581521004998,
+      "f1_vs_heuristic": 0.0,
+      "recall_vs_heuristic": 0.0,
+      "precision_vs_heuristic": 0.0
+    },
+    {
+      "model": "logistic_regression",
+      "strategy": "top_5pct_highest_risk",
+      "threshold_value": 0.5650551401626722,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 1851,
+      "predicted_rug_rate": 0.05000675401864109,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.9255977306497366,
+      "f1_vs_heuristic": 0.0,
+      "recall_vs_heuristic": 0.0,
+      "precision_vs_heuristic": 0.0
+    },
+    {
+      "model": "logistic_regression",
+      "strategy": "top_10pct_highest_risk",
+      "threshold_value": 0.5650551401626722,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 3702,
+      "predicted_rug_rate": 0.10001350803728218,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.8755909766310955,
+      "f1_vs_heuristic": 0.0,
+      "recall_vs_heuristic": 0.0,
+      "precision_vs_heuristic": 0.0
+    },
+    {
+      "model": "random_forest",
+      "strategy": "default_0.5",
+      "threshold_value": 0.5,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 30147,
+      "predicted_rug_rate": 0.8144535998919357,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.19740645684182087,
+      "f1_vs_heuristic": 0.04322061191626409,
+      "recall_vs_heuristic": 0.743078626799557,
+      "precision_vs_heuristic": 0.022257604405081767
+    },
+    {
+      "model": "random_forest",
+      "strategy": "best_f1_threshold_2024",
+      "threshold_value": 0.2141635023310042,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 36988,
+      "predicted_rug_rate": 0.9992705659867621,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.025124949344860193,
+      "f1_vs_heuristic": 0.04766303343801958,
+      "recall_vs_heuristic": 1.0,
+      "precision_vs_heuristic": 0.02441332323996972
+    },
+    {
+      "model": "random_forest",
+      "strategy": "top_1pct_highest_risk",
+      "threshold_value": 0.7206911883425423,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 371,
+      "predicted_rug_rate": 0.010022963663379712,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.9702823179791976,
+      "f1_vs_heuristic": 0.13657770800627944,
+      "recall_vs_heuristic": 0.09634551495016612,
+      "precision_vs_heuristic": 0.23450134770889489
+    },
+    {
+      "model": "random_forest",
+      "strategy": "top_5pct_highest_risk",
+      "threshold_value": 0.6855284226356485,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 1851,
+      "predicted_rug_rate": 0.05000675401864109,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.9372686748615426,
+      "f1_vs_heuristic": 0.1568627450980392,
+      "recall_vs_heuristic": 0.23920265780730898,
+      "precision_vs_heuristic": 0.1166936790923825
+    },
+    {
+      "model": "random_forest",
+      "strategy": "top_10pct_highest_risk",
+      "threshold_value": 0.6425093283236157,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 3702,
+      "predicted_rug_rate": 0.10001350803728218,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.8954748075104687,
+      "f1_vs_heuristic": 0.15982627578718783,
+      "recall_vs_heuristic": 0.40753045404208194,
+      "precision_vs_heuristic": 0.09940572663425176
+    },
+    {
+      "model": "xgboost",
+      "strategy": "default_0.5",
+      "threshold_value": 0.5,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 35424,
+      "predicted_rug_rate": 0.957017425368094,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.05965149263811968,
+      "f1_vs_heuristic": 0.041842155972141935,
+      "recall_vs_heuristic": 0.8416389811738649,
+      "precision_vs_heuristic": 0.02145438121047877
+    },
+    {
+      "model": "xgboost",
+      "strategy": "best_f1_threshold_2024",
+      "threshold_value": 0.20339924097061157,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 36978,
+      "predicted_rug_rate": 0.9990004052411184,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.02539511009050385,
+      "f1_vs_heuristic": 0.04767561574404055,
+      "recall_vs_heuristic": 1.0,
+      "precision_vs_heuristic": 0.024419925361025475
+    },
+    {
+      "model": "xgboost",
+      "strategy": "top_1pct_highest_risk",
+      "threshold_value": 0.8112812042236328,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 371,
+      "predicted_rug_rate": 0.010022963663379712,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.966175874645414,
+      "f1_vs_heuristic": 0.01726844583987441,
+      "recall_vs_heuristic": 0.012181616832779624,
+      "precision_vs_heuristic": 0.029649595687331536
+    },
+    {
+      "model": "xgboost",
+      "strategy": "top_5pct_highest_risk",
+      "threshold_value": 0.7650949358940125,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 1851,
+      "predicted_rug_rate": 0.05000675401864109,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.9318114277995407,
+      "f1_vs_heuristic": 0.08351488743645606,
+      "recall_vs_heuristic": 0.1273532668881506,
+      "precision_vs_heuristic": 0.06212857914640735
+    },
+    {
+      "model": "xgboost",
+      "strategy": "top_10pct_highest_risk",
+      "threshold_value": 0.7052973508834839,
+      "total_tokens": 37015,
+      "predicted_rug_tokens": 3702,
+      "predicted_rug_rate": 0.10001350803728218,
+      "heuristic_rug_rate": 0.024395515331622316,
+      "agreement_with_heuristic": 0.8917465892205862,
+      "f1_vs_heuristic": 0.1298588490770901,
+      "recall_vs_heuristic": 0.33111849390919157,
+      "precision_vs_heuristic": 0.08076715289032955
+    }
+  ],
+  "high_drift_feature_count": 4,
+  "high_drift_features": [
+    "total_volume",
+    "imbalance_ratio",
+    "activity_count",
+    "lifespan_hours"
+  ],
+  "feature_alignment": {
+    "lifespan_hours": "Historical: last-first pool activity. 2025: last-first swap activity.",
+    "activity_count": "Historical: liquidity adds+removes. 2025: token-side swap events.",
+    "total_volume": "Historical: added+removed liquidity amount. 2025: swap USD volume.",
+    "imbalance_ratio": "Historical: removed/added liquidity. 2025: sell/buy USD volume.",
+    "entity_concentration_ratio": "Historical: top liquidity pool share. 2025: top wallet volume share.",
+    "graph_degree": "Historical: token-pool bipartite degree. 2025: token-wallet bipartite degree.",
+    "connected_entities": "Same as graph degree, retained with an interpretable name."
+  },
+  "limitations": [
+    "2025 labels are heuristic risk labels only, not ground truth rug labels.",
+    "Historical wallet-level concentration is unavailable, so top pool share is used as a proxy.",
+    "Historical volume is liquidity amount, while 2025 volume is swap USD; drift should be expected.",
+    "2024 timestamps in the provided file are time fragments, so validation lifespan is relative only."
+  ]
+}
