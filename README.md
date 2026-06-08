@@ -151,3 +151,36 @@ The broader pipeline may be time-consuming and depends on local raw data, cached
 2. Check `outputs/final/final_artifact_audit.md` for the final artifact inventory.
 3. Review figures in `figures/final/` for the final visual evidence.
 4. Inspect `outputs/final/weak_label_rugcheck_confusion.csv`, `temporal_model_metrics.csv`, `threshold_calibration_metrics.csv`, `topk_ranking_metrics.csv`, and `graphsage_ablation.csv` for the main quantitative evidence.
+
+## Team Contributions
+
+### Nguyen Thi Phuong Thao (V202401781)
+
+* Data collection and crawling
+* Data preprocessing and cleaning
+* Exploratory Data Analysis (EDA)
+* Feature engineering
+* Graph construction and validation
+* Visualization and result interpretation
+* Report writing: Introduction, Data Overview
+
+### Le Thao Vy (V202401694)
+
+* Data collection and crawling
+* Model development and implementation
+* GraphSAGE training and evaluation
+* Baseline comparison
+* Hyperparameter tuning
+* RugCheck external validation
+* Report writing: Implementation Details, Empirical Results, Limitations
+
+### Shared Contributions
+
+* Literature review
+* Research design
+* Result discussion
+* Conclusion writing
+* Presentation preparation
+* Final report revision
+* Repository maintenance
+
