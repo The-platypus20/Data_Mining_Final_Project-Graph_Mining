@@ -1,0 +1,5 @@
+group,n,median_lifespan_hours,p90_lifespan_hours
+Likely rug (SolRPDS + Dune weak),5981,9.35,2528.2480555555558
+Likely non-rug (SolRPDS + Dune weak),173571,0.0,14.180833333333334
+RugCheck risky,135617,0.0,0.8528888888888913
+RugCheck safe,29642,0.0,13.544222222222231

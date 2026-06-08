@@ -1,0 +1,82 @@
+{
+  "window_hours": 24,
+  "model_score_generation": [
+    {
+      "experiment": "token_only_logistic",
+      "model": "logistic_regression",
+      "status": "completed",
+      "feature_count": 13
+    },
+    {
+      "experiment": "token_only",
+      "model": "xgboost",
+      "status": "completed",
+      "feature_count": 13
+    },
+    {
+      "experiment": "token_graphsage_combined",
+      "model": "xgboost",
+      "status": "completed",
+      "feature_count": 29
+    }
+  ],
+  "coverage": [
+    {
+      "metric": "total_tokens",
+      "value": 167507.0
+    },
+    {
+      "metric": "api_ok_count",
+      "value": 165259.0
+    },
+    {
+      "metric": "api_error_count",
+      "value": 2248.0
+    },
+    {
+      "metric": "usable_label_count",
+      "value": 165259.0
+    },
+    {
+      "metric": "rugcheck_risky_count",
+      "value": 135617.0
+    },
+    {
+      "metric": "rugcheck_safe_count",
+      "value": 29642.0
+    },
+    {
+      "metric": "unknown_count",
+      "value": 2248.0
+    },
+    {
+      "metric": "usable_coverage_rate",
+      "value": 0.9865796653274191
+    },
+    {
+      "metric": "unknown_rate",
+      "value": 0.013420334672580848
+    }
+  ],
+  "benchmark_split_counts": {
+    "all_usable_rugcheck": 165259,
+    "high_evidence_rugcheck": 1422,
+    "disagreement_cases": 135370,
+    "balanced_rugcheck": 59284
+  },
+  "retrain_decision": {
+    "usable_label_count": 165259,
+    "rugcheck_safe_count": 29642,
+    "rugcheck_risky_count": 135617,
+    "meets_minimum_retrain_rule": true,
+    "recommendation": "retrain_allowed"
+  },
+  "outputs": {
+    "master": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\rugcheck_model_validation_master.csv",
+    "existing_eval": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\external_eval_existing_models.csv",
+    "threshold_calibration": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\threshold_calibration_existing_models.csv",
+    "coverage": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\rugcheck_coverage_summary.csv",
+    "weak_vs_rugcheck": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\weak_vs_rugcheck_crosstab.csv",
+    "split_dir": "C:\\Users\\Thao Vy\\OneDrive\\Máy tính\\Study\\Data Mining\\Project\\solrpds project\\data\\results\\dune_publishable_2024_2025\\rugcheck_benchmark_splits"
+  }
+}

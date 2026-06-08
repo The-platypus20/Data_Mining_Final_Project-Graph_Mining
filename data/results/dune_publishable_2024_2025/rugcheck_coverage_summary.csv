@@ -1,0 +1,10 @@
+metric,value
+total_tokens,167507.0
+api_ok_count,165259.0
+api_error_count,2248.0
+usable_label_count,165259.0
+rugcheck_risky_count,135617.0
+rugcheck_safe_count,29642.0
+unknown_count,2248.0
+usable_coverage_rate,0.9865796653274191
+unknown_rate,0.013420334672580848

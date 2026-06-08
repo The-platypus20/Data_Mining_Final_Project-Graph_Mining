@@ -1,0 +1,50 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local package caches
+.venv/
+venv/
+env/
+.uv-cache/
+.uv-python/
+
+# Notebook checkpoints
+notebooks/
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Large local/intermediate data artifacts
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/results/**
+
+# Keep the final RugCheck validation source documented in the README.
+!data/results/
+!data/results/dune_publishable_2024_2025/
+!data/results/dune_publishable_2024_2025/rugcheck_model_validation_master.csv
+!data/results/dune_publishable_2024_2025/rugcheck_coverage_summary.csv
+!data/results/dune_publishable_2024_2025/rugcheck_external_validation_summary.json
+!data/results/dune_publishable_2024_2025/xgboost_window_ablation.csv
+
+# Archived and exploratory outputs are not used for final conclusions.
+archive/
+reports/
+README_FINAL.md
+src/lib/
+
+# Keep final artifact folders tracked.
+!outputs/final/
+!figures/final/

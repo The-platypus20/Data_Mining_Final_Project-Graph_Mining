@@ -1,0 +1,4 @@
+target_label,split,window_hours,top_k_percent,k,positives_in_top_k,base_positive_rate,precision_at_k,enrichment_at_k
+rugcheck_binary,temporal_2024_train_2025_test,1,1,1003,814,0.8263341645885287,0.8115653040877367,0.9821272541621874
+rugcheck_binary,temporal_2024_train_2025_test,1,5,5013,4218,0.8263341645885287,0.8414123279473369,1.0182470530748493
+rugcheck_binary,temporal_2024_train_2025_test,1,10,10025,8372,0.8263341645885287,0.8351122194513716,1.0106228874939642

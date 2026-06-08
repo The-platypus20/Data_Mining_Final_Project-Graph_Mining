@@ -1,0 +1,73 @@
+comparison,label_group,feature,n_tokens,median,iqr,q1,q3
+weak_strict,positive,lifespan_hours,739,0.6533333333333333,4.009722222222221,0.0822222222222222,4.091944444444444
+weak_strict,positive,activity_count,739,2.0,0.0,2.0,2.0
+weak_strict,positive,total_volume,739,888.45916398637,1245.91901346334,575.82010711599,1821.73912057933
+weak_strict,positive,sell_pressure,739,1.0,0.0,1.0,1.0
+weak_strict,positive,imbalance_ratio,739,822.8527269272399,1059.200458778895,554.68753991838,1613.887998697275
+weak_strict,positive,entity_concentration_ratio,739,0.9479226115014432,0.10525379303350679,0.8729738115725866,0.9782276046060934
+weak_strict,positive,unique_wallets,739,2.0,0.0,2.0,2.0
+weak_strict,positive,graph_degree,739,2.0,0.0,2.0,2.0
+weak_strict,positive,connected_entities,739,2.0,0.0,2.0,2.0
+weak_strict,negative,lifespan_hours,166768,0.0,0.0,0.0,0.0
+weak_strict,negative,activity_count,166768,1.0,0.0,1.0,1.0
+weak_strict,negative,total_volume,166768,98.22127031197,210.95901307081252,35.238969763049994,246.1979828338625
+weak_strict,negative,sell_pressure,166768,0.45834328160295557,1.0,0.0,1.0
+weak_strict,negative,imbalance_ratio,166768,0.8461877536435103,58.93237819107,0.0,58.93237819107
+weak_strict,negative,entity_concentration_ratio,166768,1.0,0.0,1.0,1.0
+weak_strict,negative,unique_wallets,166768,1.0,0.0,1.0,1.0
+weak_strict,negative,graph_degree,166768,1.0,0.0,1.0,1.0
+weak_strict,negative,connected_entities,166768,1.0,0.0,1.0,1.0
+weak_relaxed,positive,lifespan_hours,163836,0.0,0.0,0.0,0.0
+weak_relaxed,positive,activity_count,163836,1.0,0.0,1.0,1.0
+weak_relaxed,positive,total_volume,163836,98.283952043715,212.227960442245,35.11150000000001,247.339460442245
+weak_relaxed,positive,sell_pressure,163836,0.5140907928592771,1.0,0.0,1.0
+weak_relaxed,positive,imbalance_ratio,163836,1.0579976423557376,63.639682028565005,0.0,63.639682028565005
+weak_relaxed,positive,entity_concentration_ratio,163836,1.0,0.0,1.0,1.0
+weak_relaxed,positive,unique_wallets,163836,1.0,0.0,1.0,1.0
+weak_relaxed,positive,graph_degree,163836,1.0,0.0,1.0,1.0
+weak_relaxed,positive,connected_entities,163836,1.0,0.0,1.0,1.0
+weak_relaxed,negative,lifespan_hours,3671,0.4563888888888889,2.247777777777778,0.04763888888888885,2.2954166666666667
+weak_relaxed,negative,activity_count,3671,2.0,1.0,2.0,3.0
+weak_relaxed,negative,total_volume,3671,138.5310453072,284.60285223133,49.61227126867,334.2151235
+weak_relaxed,negative,sell_pressure,3671,0.0,0.0,0.0,0.0
+weak_relaxed,negative,imbalance_ratio,3671,0.0,0.0,0.0,0.0
+weak_relaxed,negative,entity_concentration_ratio,3671,0.517989327796988,0.16578594181417827,0.4326929709401801,0.5984789127543584
+weak_relaxed,negative,unique_wallets,3671,2.0,1.0,2.0,3.0
+weak_relaxed,negative,graph_degree,3671,2.0,1.0,2.0,3.0
+weak_relaxed,negative,connected_entities,3671,2.0,1.0,2.0,3.0
+RugCheck,risky,lifespan_hours,135617,0.0,0.0,0.0,0.0
+RugCheck,risky,activity_count,135617,1.0,0.0,1.0,1.0
+RugCheck,risky,total_volume,135617,93.35382830704,201.73861356957,33.99834319184,235.73695676141
+RugCheck,risky,sell_pressure,135617,0.4219088177716235,1.0,0.0,1.0
+RugCheck,risky,imbalance_ratio,135617,0.72983091723573,57.779584710360005,0.0,57.779584710360005
+RugCheck,risky,entity_concentration_ratio,135617,1.0,0.0,1.0,1.0
+RugCheck,risky,unique_wallets,135617,1.0,0.0,1.0,1.0
+RugCheck,risky,graph_degree,135617,1.0,0.0,1.0,1.0
+RugCheck,risky,connected_entities,135617,1.0,0.0,1.0,1.0
+RugCheck,safe,lifespan_hours,29642,0.0,0.8678472222222222,0.0,0.8678472222222222
+RugCheck,safe,activity_count,29642,1.0,1.0,1.0,2.0
+RugCheck,safe,total_volume,29642,128.265931217645,284.94060832679753,44.12668834804249,329.06729667484
+RugCheck,safe,sell_pressure,29642,0.6644757120267202,1.0,0.0,1.0
+RugCheck,safe,imbalance_ratio,29642,1.980410207148827,73.78566868891001,0.0,73.78566868891001
+RugCheck,safe,entity_concentration_ratio,29642,1.0,0.1656031415186595,0.8343968584813405,1.0
+RugCheck,safe,unique_wallets,29642,1.0,1.0,1.0,2.0
+RugCheck,safe,graph_degree,29642,1.0,1.0,1.0,2.0
+RugCheck,safe,connected_entities,29642,1.0,1.0,1.0,2.0
+weak/RugCheck consensus,positive,lifespan_hours,490,0.38319444444444445,2.3972222222222226,0.07770833333333332,2.474930555555556
+weak/RugCheck consensus,positive,activity_count,490,2.0,0.0,2.0,2.0
+weak/RugCheck consensus,positive,total_volume,490,821.3974227154099,1075.5438575558924,569.1175827319124,1644.661440287805
+weak/RugCheck consensus,positive,sell_pressure,490,1.0,0.0,1.0,1.0
+weak/RugCheck consensus,positive,imbalance_ratio,490,782.86327823802,958.5164407685426,555.6145584117324,1514.130999180275
+weak/RugCheck consensus,positive,entity_concentration_ratio,490,0.9435257686107652,0.1073446406209867,0.8653312826414669,0.9726759232624536
+weak/RugCheck consensus,positive,unique_wallets,490,2.0,0.0,2.0,2.0
+weak/RugCheck consensus,positive,graph_degree,490,2.0,0.0,2.0,2.0
+weak/RugCheck consensus,positive,connected_entities,490,2.0,0.0,2.0,2.0
+weak/RugCheck consensus,negative,lifespan_hours,29399,0.0,0.8147222222222221,0.0,0.8147222222222221
+weak/RugCheck consensus,negative,activity_count,29399,1.0,1.0,1.0,2.0
+weak/RugCheck consensus,negative,total_volume,29399,126.856,276.956607771465,43.81531146441,320.771919235875
+weak/RugCheck consensus,negative,sell_pressure,29399,0.6419071563472867,1.0,0.0,1.0
+weak/RugCheck consensus,negative,imbalance_ratio,29399,1.792571864323049,70.26653358352499,0.0,70.26653358352499
+weak/RugCheck consensus,negative,entity_concentration_ratio,29399,1.0,0.16686597459293084,0.8331340254070692,1.0
+weak/RugCheck consensus,negative,unique_wallets,29399,1.0,1.0,1.0,2.0
+weak/RugCheck consensus,negative,graph_degree,29399,1.0,1.0,1.0,2.0
+weak/RugCheck consensus,negative,connected_entities,29399,1.0,1.0,1.0,2.0

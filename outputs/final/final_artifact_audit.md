@@ -1,0 +1,21 @@
+# Final Artifact Audit
+
+- `outputs\final\final_run_summary.md`: exists, report-ready; reason=nan
+- `outputs\final\token_labels_all_versions.csv`: exists, report-ready; rows=167507.0; columns=token_address, year, weak_label, silver_label, silver_label_score, rugcheck_label, api_ok, lifespan_hours, sell_pressure, entity_concentration_ratio, total_volume, activity_count; reason=nan
+- `outputs\final\label_sensitivity_summary.csv`: exists, report-ready; rows=14.0; columns=label_version, year, total_tokens, positive_count, positive_rate, uncertain_count, uncertain_rate, rugcheck_coverage_count, rugcheck_coverage_rate; reason=nan
+- `outputs\final\weak_label_rugcheck_confusion.csv`: exists, report-ready; rows=5.0; columns=label_version, n_compared, tp, fp, tn, fn, precision, recall, f1, agreement_rate; reason=nan
+- `outputs\final\temporal_model_metrics.csv`: exists, report-ready; rows=6.0; columns=precision, recall, f1, roc_auc, pr_auc, predicted_positive_rate, true_positive_rate, brier_score, ece, train_source/year, test_source/year, label_source; reason=nan
+- `outputs\final\threshold_calibration_metrics.csv`: exists, report-ready; rows=10.0; columns=model, target_label, split/test_set, brier_score, ece, predicted_positive_rate_at_0_5, true_positive_rate, n_samples; reason=nan
+- `outputs\final\calibration_bins.csv`: exists, report-ready; rows=96.0; columns=model, target_label, split/test_set, bin, n_samples, mean_predicted_probability, observed_positive_rate; reason=nan
+- `outputs\final\topk_ranking_metrics.csv`: exists, report-ready; rows=10.0; columns=model, target_label, split/test_set, baseline_positive_rate, predicted_positive_rate, auprc, roc_auc, precision_at_1pct, enrichment_at_1pct, precision_at_5pct, enrichment_at_5pct, precision_at_10pct; reason=nan
+- `outputs\final\graphsage_ablation.csv`: exists, report-ready; rows=9.0; columns=precision, recall, f1, average_precision, roc_auc, tn, fp, fn, tp, window_hours, experiment, model; reason=nan
+- `figures\final\label_sensitivity.png`: exists, report-ready
+- `figures\final\weak_label_vs_rugcheck_confusion.png`: exists, report-ready
+- `figures\final\behavior_separation.png`: exists, report-ready
+- `figures\final\temporal_shift_2024_2025.png`: exists, report-ready
+- `figures\final\predicted_positive_rate_by_model.png`: exists, report-ready
+- `figures\final\topk_enrichment.png`: exists, report-ready
+- `figures\final\calibration_curve.png`: exists, report-ready
+- `figures\final\feature_importance.png`: exists, report-ready
+- `figures\final\token_distribution_by_source_year.png`: exists, report-ready
+- `figures\final\lifespan_cumulative_curve.png`: exists, report-ready
