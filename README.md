@@ -152,6 +152,14 @@ The broader pipeline may be time-consuming and depends on local raw data, cached
 3. Review figures in `figures/final/` for the final visual evidence.
 4. Inspect `outputs/final/weak_label_rugcheck_confusion.csv`, `temporal_model_metrics.csv`, `threshold_calibration_metrics.csv`, `topk_ranking_metrics.csv`, and `graphsage_ablation.csv` for the main quantitative evidence.
 
+## External Data Archive
+
+Large raw and intermediate data files are not stored in this GitHub repository to keep the submission lightweight. They are available here:
+
+[Google Drive data archive](https://drive.google.com/drive/folders/1Yq4swgzZghV7vkGSjp2mD7TjD0xLTBpT?usp=sharing)
+
+The final conclusions in this repository are based on the checked-in final artifacts under `outputs/final/` and `figures/final/`. The external archive is provided only for full raw-data reproduction and audit.
+
 ## Team Contributions
 
 ### Nguyen Thi Phuong Thao (V202401781)
